@@ -31,9 +31,26 @@ input{
     background-color: #c5c598;
     font-size: 16px;
     color: #606025;
-transition: 0.5s;
+    transition: 0.5s;
+    margin: 0px 0px 15px;
 }
 input:focus{
     box-shadow: 0px 0px 16px #f58712;
-
+}
+button{
+    width: 100%;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: #f58712;
+    color: #606025;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #f58712;
+    transition: 0.5s;
+    margin: 15px 0px 0px;
+    
+}
+button:hover{
+    background-color: #606025;
+    color: #f9a752;
 }
